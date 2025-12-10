@@ -11,7 +11,8 @@ const GITHUB_OWNER = "superaceCZ";
 const GITHUB_REPO = "android-apk-builder";
 const GITHUB_BRANCH = "main";
 const GITHUB_WORKFLOW_FILE = "build-apk.yml"; // file name in .github/workflows/
-const ZIP_NAME = "AndroidProject.zip";        // must match your export name
+const ZIP_NAME = "AndroidProject.zip";  
+const CANONICAL_ZIP_NAME = "AndroidProject.zip";// must match your export name
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 if (!GITHUB_TOKEN) {
